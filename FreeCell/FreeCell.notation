@@ -27,12 +27,51 @@
       <element xmi:type="uml:Interface" href="FreeCell.uml#_hHBJcH05Eemxkd7VRJPIBg"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hHDlsX05Eemxkd7VRJPIBg" x="300" y="80"/>
     </children>
+    <children xmi:type="notation:Shape" xmi:id="_uEtnkH08EemV1OdO-Vun2g" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_uEzuMH08EemV1OdO-Vun2g" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_uE0VQH08EemV1OdO-Vun2g" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_uE0VQX08EemV1OdO-Vun2g" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_uE08UH08EemV1OdO-Vun2g" type="Class_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_uE08UX08EemV1OdO-Vun2g"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_uE08Un08EemV1OdO-Vun2g"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_uE08U308EemV1OdO-Vun2g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uE08VH08EemV1OdO-Vun2g"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_uE1jYH08EemV1OdO-Vun2g" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_uE1jYX08EemV1OdO-Vun2g"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_uE1jYn08EemV1OdO-Vun2g"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_uE1jY308EemV1OdO-Vun2g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uE1jZH08EemV1OdO-Vun2g"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_uE1jZX08EemV1OdO-Vun2g" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_uE1jZn08EemV1OdO-Vun2g"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_uE1jZ308EemV1OdO-Vun2g"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_uE1jaH08EemV1OdO-Vun2g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uE1jaX08EemV1OdO-Vun2g"/>
+      </children>
+      <element xmi:type="uml:Class" href="FreeCell.uml#_uDXjwH08EemV1OdO-Vun2g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uEtnkX08EemV1OdO-Vun2g" x="300" y="240"/>
+    </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_BZirEX05Eemxkd7VRJPIBg" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_BZirEn05Eemxkd7VRJPIBg"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_BZirE305Eemxkd7VRJPIBg" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
       <owner xmi:type="uml:Model" href="FreeCell.uml#_BOJTYH05Eemxkd7VRJPIBg"/>
     </styles>
     <element xmi:type="uml:Model" href="FreeCell.uml#_BOJTYH05Eemxkd7VRJPIBg"/>
+    <edges xmi:type="notation:Connector" xmi:id="_01ZRMH08EemV1OdO-Vun2g" type="InterfaceRealization_Edge" source="_uEtnkH08EemV1OdO-Vun2g" target="_hHDlsH05Eemxkd7VRJPIBg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_01afUH08EemV1OdO-Vun2g" type="InterfaceRealization_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_01afUX08EemV1OdO-Vun2g" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_01afUn08EemV1OdO-Vun2g" type="InterfaceRealization_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_01afU308EemV1OdO-Vun2g" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_01Z4QH08EemV1OdO-Vun2g"/>
+      <element xmi:type="uml:InterfaceRealization" href="FreeCell.uml#_00QowH08EemV1OdO-Vun2g"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_01Z4QX08EemV1OdO-Vun2g" points="[360, 240, -643984, -643984]$[340, 184, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_04F_4H08EemV1OdO-Vun2g" id="(0.5357142857142857,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_04F_4X08EemV1OdO-Vun2g" id="(0.4,1.0)"/>
+    </edges>
   </notation:Diagram>
   <nattable:Table xmi:id="_KwVbUH05Eemxkd7VRJPIBg" name="Command" currentRowAxisProvider="_KwWCYX05Eemxkd7VRJPIBg" currentColumnAxisProvider="_KwVbUX05Eemxkd7VRJPIBg" tableKindId="org.eclipse.papyrus.uml.table.classTree">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KwdXIH05Eemxkd7VRJPIBg" source="http://www.eclipse.org/papyrus/infra/nattable/version">
