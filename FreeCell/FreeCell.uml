@@ -4,4 +4,7 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Interface" xmi:id="_hHBJcH05Eemxkd7VRJPIBg" name="Command"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_uDXjwH08EemV1OdO-Vun2g" name="QuitCommand">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_00QowH08EemV1OdO-Vun2g" client="_uDXjwH08EemV1OdO-Vun2g" supplier="_hHBJcH05Eemxkd7VRJPIBg" contract="_hHBJcH05Eemxkd7VRJPIBg"/>
+  </packagedElement>
 </uml:Model>
